@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+
+    color: #ffffff;
+  font-family: sans-serif;
+
+  background-color:brown;
+}
+
+table {
+background-color:  rgb(140, 17, 17);
+  width: 500px;
+  margin: 0 auto;
+  border-style: solid;
+
+  border-color: rgb(189, 47, 47);
+}
+
+th, td {
+  border: 0px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+input[type="text"], textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ffffff;
+  color: rgb(50, 49, 49);
+    border-radius: 10px;
+  padding: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+
+  margin-left: 100px;
+}
+
+table{
+    border: 2px;
+    border-style: solid;
+    border-color: ;
+}
+</style>
+</head>
+<body>
+
+    <h1>CSS Task 7</h1>
+    <table>
+    <tr>
+        <th>Name</th>
+        <td><input type="text" name="name" placeholder="Enter Name"></td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td><input type="email" name="email" placeholder="Enter Email"></td>
+    </tr>
+    <tr>
+        <th>Gender</th>
+        <td>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        </td>
+    </tr>
+    <tr>
+        <th>Password</th>
+        <td><input type="password" name="password" placeholder="Enter Password"></td>
+    </tr>
+    <tr>
+        <th>Phone Number</th>
+        <td><input type="text" name="phone" placeholder="Enter Phone Number"></td>
+    </tr>
+    <tr>
+        <th>Language</th>
+        <td>
+        <select name="language">
+            <option value="English">English</option>
+            <option value="French">French</option>
+            <option value="Spanish">Spanish</option>
+            <option value="German">German</option>
+            <option value="Chinese">Chinese</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <th>About</th>
+        <td><textarea name="about"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button type="submit">Register</button></td>
+    </tr>
+    </table>
+</body>
+</html>
